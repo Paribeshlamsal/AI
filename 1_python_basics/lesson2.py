@@ -1,0 +1,13 @@
+age=20
+name="Bhugol"
+section=1
+is_active=False
+print(age,name,section,is_active)
+numbers=[1,2,3,4,5]
+print(numbers[3])
+subject=["Maths","Science","English"]
+print(subject[2])
+numbers.append(5)
+subject.append("Ok")
+print(numbers)
+print(subject)

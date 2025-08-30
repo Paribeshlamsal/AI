@@ -1,0 +1,11 @@
+import numpy as np
+rand_arr=np.random.rand(3)
+print(rand_arr)
+new_arr=np.random.rand(2,5)
+print(new_arr)
+a=np.random.randint(20,400,size=3)
+print(a)
+again_new=np.random.randn(8)
+print(again_new)
+np.random.seed(42)
+print(np.random.rand(5))

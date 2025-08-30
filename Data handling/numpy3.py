@@ -1,0 +1,15 @@
+import numpy as np
+arr=np.array([[1,2,3],[5,6,7],[11,12,13]])
+print("Sum of all elements",np.sum(arr))
+print("Sum of all elements",np.sum(arr,axis=1))
+print("Sum of all elements",np.sum(arr,axis=0))
+print("Sum of all elements",np.mean(arr))
+print("Sum of all elements",np.mean(arr,axis=1))
+print("Sum of all elements",np.mean(arr,axis=0))
+print("Sum of all elements",np.min(arr,axis=1))
+print(arr.reshape(1,9))
+print(arr.ndim)
+print(arr.shape)
+print(arr.dtype)
+print(arr.size)
+
