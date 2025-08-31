@@ -1,0 +1,20 @@
+import pandas as pd
+students={
+    'Id':[1,2,3],
+    'Name':['Ram','Shyam','Hari'],
+    'Age':[15,14,15]
+}
+subjects={
+    'Id':[1,2,5],
+    'Subject':['Math','Science','Social']
+}
+df=pd.DataFrame(students)
+df1=pd.DataFrame(subjects)
+inner=pd.merge(df,df1,on='Id',how='inner')
+left=pd.merge(df,df1,on='Id',how='left')
+right=pd.merge(df,df1,on='Id',how='right')
+outer=pd.merge(df,df1,on='Id',how='outer')
+print(inner)
+print(left)
+print(right)
+print(outer)
