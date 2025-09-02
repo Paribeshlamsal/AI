@@ -1,0 +1,5 @@
+plt.hist(tips['tip'],bins=20,color='red',edgecolor='black')
+# plt.title("Distribution of tips")
+# plt.xlabel("Tip amount")
+# plt.ylabel("Frequency")
+# plt.show()
